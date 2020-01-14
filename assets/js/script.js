@@ -22,7 +22,7 @@ $(document).ready(function () {
     var changeStyle = $('#navigation-bar');
 
     function scroll() {
-        if ($(window).scrollTop() > 400) {
+        if ($(window).scrollTop() > 100) {
             changeStyle.addClass('navbar-fixed-top');
             changeStyle.addClass('one-page-nav');
         } else {
