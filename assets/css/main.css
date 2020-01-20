@@ -67,6 +67,7 @@ body {
 	background-size: cover;
 	background-attachment: fixed;
 	height: 100vh;
+	width: auto;
 	color: #ffffff;
 	text-transform: uppercase;
 }
