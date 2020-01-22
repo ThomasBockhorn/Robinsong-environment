@@ -121,6 +121,14 @@ body {
 	letter-spacing: 1px;
 }
 
+/*Add a media query to keep navbar on one line with smaller viewport*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.navbar-default .navbar-nav>li>a {
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+}
+
 .navbar-default .navbar-toggle {
 	border-radius: 0px;
 }
